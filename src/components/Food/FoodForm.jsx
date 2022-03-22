@@ -18,6 +18,8 @@ const FoodForm = (props) => {
 
     props.onAddCart(inputAmountNum);
 
+    inputAmountRef.current.value = "0";
+
   };
 
   return (
