@@ -1,12 +1,12 @@
 import style from "./Header.module.css";
 import HeaderButton from "./HeaderButton";
 
-const Header = () => {
+const Header = ({onShow}) => {
   return (
     <header className={style.header}>
       <h2 className={style.header__title}>سفارش غذا</h2>
       <div>
-        <HeaderButton />
+        <HeaderButton onShowCart={onShow}/>
       </div>
     </header>
   );

@@ -13,7 +13,7 @@ const Foods = () => {
     <div className={style.list__foods}>
       <ul className={style.foods__ul}>
         {foodItems.map(item => (
-            <FoodItem key={item.id} name={item.name} price={item.price}/>
+            <FoodItem key={item.id} id={item.id} name={item.name} price={item.price}/>
         ))}
       </ul>
     </div>

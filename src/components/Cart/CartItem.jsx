@@ -1,12 +1,12 @@
 import style from "./CartItem.module.css";
 
-const CartItem = () => {
+const CartItem = (props) => {
   return (
-    <li className={style.modal__item}>
+    <li key={props.key} className={style.modal__item}>
       <div className={style["modal__item-right"]}>
-        <p className={style["cart__item-title"]}>سوشی</p>
-        <span className={style["cart__item-price"]}>15,000ت</span>
-        <span className={style["cart__item-count"]}>تعداد : 5</span>
+        <p className={style["cart__item-title"]}>{props.name}</p>
+        <span className={style["cart__item-price"]}>{props.price} ت</span>
+        <span className={style["cart__item-count"]}>تعداد : {props.amount}</span>
       </div>
       <div className={style["modal__item-left"]}>
         <div>
