@@ -10,10 +10,10 @@ const CartItem = (props) => {
       </div>
       <div className={style["modal__item-left"]}>
         <div>
-          <button className={style["btn-order"]}>
+          <button className={style["btn-order"]} onClick={props.onRemove}>
             -
           </button>
-          <button className={style["btn-order"]}>
+          <button className={style["btn-order"]} onClick={props.onAdd}>
             +
           </button>
         </div>
