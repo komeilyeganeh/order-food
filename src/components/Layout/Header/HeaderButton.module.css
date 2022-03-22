@@ -1,0 +1,31 @@
+.cart__button {
+  border: none;
+  padding: 0.6rem 2rem;
+  border-radius: 15px;
+  background-color: #f6d860;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.cart__button:hover {
+  background-color: #95cd41;
+}
+
+.cart__badge {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #95cd41;
+  line-height: 33px;
+  margin-right: 1rem;
+  color: #222;
+  transition: all 0.2s;
+}
+
+.cart__button:hover .cart__badge {
+  background-color: #f6d860;
+}
