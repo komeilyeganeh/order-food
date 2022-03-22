@@ -16,7 +16,7 @@ const FoodItem = (props) => {
   };
 
   return (
-    <li key={props.key} className={style.food__item}>
+    <li className={style.food__item}>
       <div className={style["food__item-right"]}>
         <p className={style["food__item-title"]}>{props.name}</p>
         <span className={style["food__item-price"]}>{props.price} ت</span>
