@@ -18,12 +18,10 @@ const FoodForm = (props) => {
 
     props.onAddCart(inputAmountNum);
 
-    inputAmountRef.current.value = "0";
-
   };
 
   return (
-    <form action="" onSubmit={submitHandler}>
+    <form action="" className={style.form} onSubmit={submitHandler} >
       <input
         ref={inputAmountRef}
         type="number"

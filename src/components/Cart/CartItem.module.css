@@ -37,3 +37,25 @@
   font-size: 1rem;
   margin: 0 .5rem;
 }
+
+@media (max-width: 400px) {
+  .modal__item {
+    flex-direction: column;
+  }
+  .modal__item-right {
+    text-align: center;
+  }
+  .modal__item-left {
+    margin-top: 1.5rem;
+  }
+  .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .total__amount h4 {
+    font-size: .92rem;
+  }
+  .total__amount span {
+    font-size: .9rem;
+  }
+}

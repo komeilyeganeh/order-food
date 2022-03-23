@@ -31,3 +31,16 @@
   border: 1px solid #ea5c2b;
   margin-right: 0.5rem;
 }
+
+@media (max-width: 400px) {
+  .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .total__amount h4 {
+    font-size: .92rem;
+  }
+  .total__amount span {
+    font-size: .9rem;
+  }
+}

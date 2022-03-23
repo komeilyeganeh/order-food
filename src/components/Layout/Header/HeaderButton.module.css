@@ -51,3 +51,10 @@
     transform: scale(1);
   }
 }
+
+@media (max-width: 576px) {
+  .cart__button {
+    padding: 0.3rem 1rem;
+  font-size: .8rem;
+  }
+}

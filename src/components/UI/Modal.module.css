@@ -33,3 +33,14 @@
   }
 }
 
+@media (max-width: 768px) {
+  .modal__card {
+    width: 70%;
+  }
+}
+@media (max-width: 576px) {
+  .modal__card {
+    width: 90%;
+  }
+}
+

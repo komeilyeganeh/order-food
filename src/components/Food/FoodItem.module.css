@@ -22,3 +22,36 @@
   border-radius: 10px;
   margin-top: 0.6rem;
 }
+
+@media (max-width: 400px) {
+  .food__item {
+    flex-direction: column;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .amount__input {
+    align-self: center;
+    margin-top: 1rem;
+  }
+  .modal__item {
+    flex-direction: column;
+  }
+  .modal__item-right {
+    text-align: center;
+  }
+  .modal__item-left {
+    margin-top: 1.5rem;
+  }
+  .cart__buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+  .total__amount h4 {
+    font-size: .92rem;
+  }
+  .total__amount span {
+    font-size: .9rem;
+  }
+}

@@ -14,3 +14,9 @@
   max-height: 20rem;
   overflow: scroll;
 }
+
+@media (max-width: 768px) {
+  .list__foods {
+    width: 88%;
+  }
+}
