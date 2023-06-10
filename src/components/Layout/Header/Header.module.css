@@ -4,11 +4,10 @@
   right: 0;
   width: 100%;
   padding: 1rem 6rem;
-  background-color: #ea5c2b;
+  background-color: #FF731D;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 10px 5rem 8px rgba(0, 0, 0, 0.7);
   z-index: 1999;
 }
 

@@ -1,10 +1,16 @@
+.form {
+  display: flex;
+  align-items: center;
+}
+
 .amount__food {
   width: 60px;
   align-self: flex-end;
   border: none;
   border: 1px solid #aaa;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 0.3rem;
+  outline: none;
 }
 
 .amount__food_error {
@@ -12,13 +18,16 @@
 }
 
 .submit__form {
-  background-color: #95cd41;
   border: none;
-  font-size: 0.8rem;
-  margin: 1rem .5rem 0 0;
-  padding: 0.2rem 0.8rem;
-  border-radius: 15px;
+  width: 35px;
+  height: 35px;
+  padding: 3px;
+  border-radius: 5px;
   cursor: pointer;
+  margin-right: 8px;
+}
+.submit__form img {
+  width: 100%;
 }
 
 .error__message {

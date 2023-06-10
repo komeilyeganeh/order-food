@@ -5,7 +5,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: #eee;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 .cart__buttons {
@@ -13,7 +13,7 @@
 }
 
 .cart__btn {
-  border-radius: 15px;
+  border-radius: 5px;
   font-size: 0.9rem;
   border: none;
   font-size: 0.9rem;
@@ -22,13 +22,13 @@
 }
 
 .cart__order {
-  background-color: #ea5c2b;
+  background-color: #FF731D;
   color: #fff;
 }
 
 .cart__close {
   background-color: transparent;
-  border: 1px solid #ea5c2b;
+  border: 1px solid #FF731D;
   margin-right: 0.5rem;
 }
 

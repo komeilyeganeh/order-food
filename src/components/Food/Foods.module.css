@@ -5,7 +5,7 @@
   width: 50%;
   padding: 2rem;
   background-color: #fff;
-  border: 2px dashed #95cd41;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   margin: 12rem auto 0;
 }
